@@ -5,7 +5,7 @@
 ## 🌐 Live Demo
 
 <!-- <video controls src="live.mp4" title="Title"></video> -->
-[▶️ Watch the Demo Video](live.mp4)
+![AI Resume Tailor Demo](live.gif)
 
 **Try the application:**  
 [https://ai-resume-tailor-sable.vercel.app/](https://ai-resume-tailor-sable.vercel.app/)
