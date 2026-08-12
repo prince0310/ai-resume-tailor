@@ -3,7 +3,7 @@
 > AI-powered resume tailoring with fact checking and one-page PDF generation.
 
 ## 🌐 Live Demo
-![alt text](Screenshot_12-8-2026_203543_ai-resume-tailor-sable.vercel.app.jpeg)
+![alt text](frontend.jpeg)
 
 **Try the application:**  
 [https://ai-resume-tailor-sable.vercel.app/](https://ai-resume-tailor-sable.vercel.app/)
