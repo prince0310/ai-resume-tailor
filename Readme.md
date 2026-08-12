@@ -119,7 +119,7 @@ Attempting one correction pass...
 =======================================
 ```
 ## Stage 6 — Controlled Correction
-
+```
 Gemini Generation
        ↓
    Fact Check
@@ -135,24 +135,26 @@ Gemini Generation
    │
    ▼
 Continue
-
+```
 The correction process is intentionally bounded rather than running indefinitely.
 
 ## Stage 7 — HTML Rendering
 
 The validated structured resume data is passed to the existing HTML resume template.
 
+```
 Structured Resume JSON
           ↓
       HTML Template
           ↓
       Final HTML
-
+```
 
 ## Stage 8 — PDF Generation
 
 Playwright renders the final HTML using Chromium and generates the PDF.
 
+```
 HTML
  ↓
 Playwright
@@ -160,6 +162,7 @@ Playwright
 Chromium
  ↓
 PDF
+```
 
 ## Stage 9 — One-Page Validation
 
@@ -194,7 +197,6 @@ Make sure the following are installed:
 ```bash
 git clone https://github.com/prince0310/ai-resume-tailor.git
 cd ai-resume-tailor
-
 ```
 ## 2. Backend Setup
 
@@ -211,7 +213,6 @@ Windows
 ```
 python -m venv venv
 venv\Scripts\activate
-
 ```
 macOS / Linux
 
@@ -225,7 +226,6 @@ source venv/bin/activate
 ```
 pip install -r requirements.txt
 Install Playwright Chromium
-
 ```
 
 ## 5. The application uses Playwright to render the HTML resume and generate the final PDF.
@@ -233,21 +233,18 @@ Install Playwright Chromium
 ```
 playwright install chromium
 Configure Gemini API Key
-
 ```
 
 ## 6. Create a .env file inside the backend directory:
 
 ```
 backend/.env
-
 ```
 
 Add:
 
 ```
 GEMINI_API_KEY=your_gemini_api_key
-
 ```
 
 ## 7. Start the Backend
@@ -258,14 +255,12 @@ From the backend directory, run:
 
 ```
 python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000
-
 ```
 
 The backend will be available at:
 
 ```
 http://localhost:8000
-
 ```
 FastAPI Swagger documentation:
 
