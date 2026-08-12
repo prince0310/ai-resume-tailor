@@ -1,7 +1,7 @@
 
 const API_BASE_URL =
-  "https://zooming-generosity-production-3c1c.up.railway.app";
-
+  import.meta.env.VITE_API_BASE_URL ||
+  "http://localhost:8000";
 
 export async function tailorResume(
   resumeFile,
